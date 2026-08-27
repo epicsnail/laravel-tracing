@@ -1,6 +1,6 @@
 <?php
 
-namespace vinter\LaravelTracing\Trace;
+namespace epicsnail\LaravelTracing\Trace;
 
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;

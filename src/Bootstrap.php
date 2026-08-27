@@ -1,6 +1,6 @@
 <?php
 
-namespace vinter\LaravelTracing;
+namespace epicsnail\LaravelTracing;
 
 use OpenTelemetry\API\Trace\TracerProviderInterface;
 use OpenTelemetry\Contrib\Otlp\SpanExporter;

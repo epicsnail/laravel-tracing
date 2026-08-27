@@ -1,6 +1,6 @@
 <?php
 
-namespace vinter\LaravelTracing\Logging;
+namespace epicsnail\LaravelTracing\Logging;
 
 use OpenTelemetry\API\Trace\Span;
 

@@ -1,5 +1,5 @@
 {
-  "name": "vinter/laravel-tracing",
+  "name": "epicsnail/laravel-tracing",
   "description": "Laravel OpenTelemetry tracing integration with HTTP, Queue, Monolog and OTLP.",
   "type": "library",
   "license": "MIT",
@@ -16,18 +16,18 @@
   },
   "autoload": {
     "psr-4": {
-      "vinter\\LaravelTracing\\": "src/"
+      "epicsnail\\LaravelTracing\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "vinter\\LaravelTracing\\Tests\\": "tests/"
+      "epicsnail\\LaravelTracing\\Tests\\": "tests/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "vinter\\LaravelTracing\\LaravelTracingServiceProvider"
+        "epicsnail\\LaravelTracing\\LaravelTracingServiceProvider"
       ]
     }
   },

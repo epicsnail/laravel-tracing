@@ -1,12 +1,12 @@
 <?php
 
-namespace vinter\LaravelTracing;
+namespace epicsnail\LaravelTracing;
 
-use vinter\LaravelTracing\Logging\TraceProcessor;
-use vinter\LaravelTracing\Middleware\TraceMiddleware;
-use vinter\LaravelTracing\Queue\TraceQueueMiddleware;
-use vinter\LaravelTracing\Trace\TraceManager;
-use vinter\LaravelTracing\Trace\TracePropagator;
+use epicsnail\LaravelTracing\Logging\TraceProcessor;
+use epicsnail\LaravelTracing\Middleware\TraceMiddleware;
+use epicsnail\LaravelTracing\Queue\TraceQueueMiddleware;
+use epicsnail\LaravelTracing\Trace\TraceManager;
+use epicsnail\LaravelTracing\Trace\TracePropagator;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\ServiceProvider;
 use Monolog\Logger;

@@ -1,10 +1,10 @@
 <?php
 
-namespace vinter\LaravelTracing\Middleware;
+namespace epicsnail\LaravelTracing\Middleware;
 
 use Closure;
-use vinter\LaravelTracing\Trace\TraceManager;
-use vinter\LaravelTracing\Trace\TracePropagator;
+use epicsnail\LaravelTracing\Trace\TraceManager;
+use epicsnail\LaravelTracing\Trace\TracePropagator;
 use Illuminate\Http\Request;
 use OpenTelemetry\API\Trace\Span;
 use Symfony\Component\HttpFoundation\Response;

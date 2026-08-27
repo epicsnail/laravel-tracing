@@ -1,6 +1,6 @@
 <?php
 
-namespace vinter\LaravelTracing\Trace;
+namespace epicsnail\LaravelTracing\Trace;
 
 use OpenTelemetry\API\Context\Context;
 use OpenTelemetry\API\Trace\Propagation\TraceContextPropagator;

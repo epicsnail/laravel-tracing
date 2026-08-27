@@ -1,6 +1,6 @@
 <?php
 
-namespace vinter\LaravelTracing\Trace;
+namespace epicsnail\LaravelTracing\Trace;
 
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Promise\PromiseInterface;

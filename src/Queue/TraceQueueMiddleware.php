@@ -1,9 +1,9 @@
 <?php
 
-namespace Example\LaravelTracing\Queue;
+namespace epicsnail\LaravelTracing\Queue;
 
-use vinter\LaravelTracing\Trace\TraceManager;
-use vinter\LaravelTracing\Trace\TracePropagator;
+use epicsnail\LaravelTracing\Trace\TraceManager;
+use epicsnail\LaravelTracing\Trace\TracePropagator;
 use OpenTelemetry\API\Trace\SpanKind;
 
 final class TraceQueueMiddleware
