@@ -1,0 +1,52 @@
+{
+  "name": "vinter/laravel-tracing",
+  "description": "Laravel OpenTelemetry tracing integration with HTTP, Queue, Monolog and OTLP.",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^8.1",
+    "illuminate/support": "^9.0|^10.0|^11.0|^12.0",
+    "illuminate/http": "^9.0|^10.0|^11.0|^12.0",
+    "illuminate/queue": "^9.0|^10.0|^11.0|^12.0",
+    "monolog/monolog": "^2.0|^3.0",
+    "open-telemetry/api": "^1.0",
+    "open-telemetry/sdk": "^1.0",
+    "open-telemetry/exporter-otlp": "^1.0",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "vinter\\LaravelTracing\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "vinter\\LaravelTracing\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "vinter\\LaravelTracing\\LaravelTracingServiceProvider"
+      ]
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  },
+  "keywords": [
+      "laravel",
+      "tracing",
+      "opentelemetry",
+      "zipkin",
+      "otel",
+      "distributed-tracing",
+      "observability"
+  ],
+  "config": {
+    "allow-plugins": {
+      "php-http/discovery": true,
+      "tbachert/spi": true
+    }
+  }
+}
